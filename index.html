@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseño.css">
+    <script src="https://kit.fontawesome.com/6bb515fdf2.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icons/icon-pestaña.png">
+
+    <title>Portfolio | Sebastian Rojas</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar"> <!-- NAVBAR -->
+        <div class="nav-bar-logo"><a href="#">Portfolio</a></div>
+        <input type='checkbox' id='check' /><!--NUEVO-->
+
+        <div class="opciones-navbar">
+            <li><a href="#principal">Sobre mi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#title-project">Proyectos</a></li>
+            <li><a href="#footer">Contacto</a></li>
+            <label for="check" class="close-menu"><i class="fa-solid fa-xmark" style="color: #AD974F;"></i></label>
+        </div>
+        <label for="check" class="open-menu"><i class="fa-solid fa-bars" style="color: #AD974F;"></i></label><!--NUEVO-->
+    </nav>
+    </header>
+    
+    <main>
+        <section class="principal" id="principal">
+            <div class="info-principal">
+                <p>Bienvenido/a</p>
+                <h1>Soy Sebastián Rojas.</h1>
+                <p>Como desarrollador web front-end, me especializo en crear código limpio y diseños perfectos. Con experiencia en la creación webs atractivas, brindo interactividad a cada proyecto. Mi enfoque en el diseño responsivo garantiza accesibilidad en todos los dispositivos.</p>
+                <div>
+                    <a href="https://github.com/SebasRojasM1" target="_blank"><img class="icon-contact" src="img/icons/github-logo.svg" alt="github-icon"></a>
+                    <a href="https://www.linkedin.com/in/sebastianrojasmarin/" target="_blank"><img class="icon-contact" src="img/icons/linkedin-logo.svg" alt="linkedin-icon"></a>
+                    <a href="mailto:Sebasrojasm1@gmail.com" target="_blank"><img class="icon-contact" src="img/icons/email-icon.svg" alt="email-icon"></a>
+                </div>
+
+                <a id="about-boton" href="">Ver skills</a>
+            </div>
+
+            <div class="photo-principal">
+                <img src="img/retrato.png" alt="">
+            </div>
+        </section>
+
+
+
+        <section class="skills-container" id="skills" data-aos="zoom-in">
+            <h2>Mis Skills</h2>
+            <div class="skills">
+                <div><a href="#"><img src="img/icons/html-icon.svg" alt=""></a></div>
+                <div><a href="#"><img src="img/icons/css-logo.svg" alt=""></a></div>
+                <div><a href="#"><img src="img/icons/javascript-logo.svg" alt=""></a></div>
+                <div><a href="#"><img src="img/icons/react-logo.svg" alt=""></a></div>
+                <div><a href="#"><img src="img/icons/sass-logo.svg" alt=""></a></div>
+                <div><a href="#"><img src="img/icons/git-logo.svg" alt=""></a></div>
+            </div>
+        </section>
+
+
+
+        <h2 id="title-project">Proyectos</h2>
+        <section class="projects" id="projects">
+            <div class="card">
+                <figure>
+                  <img src="img/SS-Projects/APIestudiantesRiwi.png" alt="" />
+                </figure>
+
+                <div class="card-content">
+                  <h2>API Estudiante Gosling</h2>
+                  <a href="https://sebasrojasm1.github.io/APIEstudiantesGosling/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                  </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                  <img src="img/SS-Projects/Cinecolombia-page.png" alt="" />
+                </figure>
+
+                <div class="card-content">
+                  <h2>Cine Colombia</h2>
+                  <a href="https://sebasrojasm1.github.io/cineColombiaProject/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                  </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                  <img src="img/SS-Projects/Gosling-buscador.png" alt="" />
+                </figure>
+
+                <div class="card-content">
+                  <h2>Gosling Buscador</h2>
+                  <a href="https://sebasrojasm1.github.io/GoslingBuscador/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="img/SS-Projects/Hogwarts Page.png" alt="" />
+              </figure>
+
+              <div class="card-content">
+                <h2>Hogwarts page</h2>
+                <a href="https://sebasrojasm1.github.io/HogwartsPage/" target="_blank" class="read-more">
+                  Ir al proyecto
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+
+            <div class="card">
+              <figure>
+                <img src="img/SS-Projects/spaceX-api.png" alt="" />
+              </figure>
+
+              <div class="card-content">
+                <h2>SpaceX API</h2>
+                <a href="https://sebasrojasm1.github.io/SpaceXApi/" target="_blank" class="read-more">
+                  Ir al proyecto
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="img/SS-Projects/AFTA.PNG" alt="" />
+              </figure>
+
+              <div class="card-content">
+                <h2>AFTA Constructor Project</h2>
+                <a href="#" target="_blank" class="read-more">
+                  Ir al proyecto
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="img/SS-Projects/replica-riwi.PNG" alt="" />
+              </figure>
+
+              <div class="card-content">
+                  <h2>Replica Riwi page</h2>
+                  <a href="https://sebasrojasm1.github.io/replicaRiwi/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                  <img src="img/SS-Projects/API-Peliculas.png" alt="" />
+                </figure>
+
+                <div class="card-content">
+                  <h2>API Peliculas</h2>
+                  <a href="https://sebasrojasm1.github.io/APIMovies/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <figure>
+                  <img src="img/SS-Projects/API-Restaurante.png" alt="" />
+                </figure>
+
+                <div class="card-content">
+                  <h2>API Restaurante</h2>
+                  <a href="https://sebasrojasm1.github.io/APIRestaurante/" target="_blank" class="read-more">
+                    Ir al proyecto
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </div>
+            </div>
+
+
+
+          <!-- Ejercicio 1 -->
+          <div class="card">
+            <figure>
+              <img src="img/usuarios-act1.jpg" alt="" />
+            </figure>
+
+            <div class="card-content">
+              <h2>SQL Empresa-vehiculos + consulta.</h2>
+              <a href="https://github.com/SebasRojasM1/SQL-MongoDBRiwi/blob/ejercicioAutos-marcas/ejercicio-autos.sql" target="_blank" class="read-more">
+                Ir al repositorio
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+        </div>
+
+
+        <!-- Ejercicio 2 -->
+        <div class="card">
+          <figure>
+            <img src="https://img.freepik.com/vector-premium/concepto-biblioteca-digital-educacion-internet-tecnologia-libros-electronicos-estudio-ilustracion-plana-vectorial_109722-4364.jpg" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>DB 10 estudiantes + consulta - SQL</h2>
+            <a href="https://github.com/SebasRojasM1/SQL-MongoDBRiwi/blob/actividad-review-1/Ejercicio%20SQL1.sql" target="_blank" class="read-more">
+              Ir al repositorio
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+
+
+        <!-- Ejercicio 3 -->
+        <div class="card">
+          <figure>
+            <img src="https://lh3.googleusercontent.com/B2B2y-S85WNWRXxRLFvhO0DoSs6Wg2lje-gGd-uTj_03XYm9IT5GhPxomnQ8Qg36aR1uMzbUKmNtCvr-Rmb1nv4vZVo1zFnQmpfuU8N_uFp3SFnjLmSuFGCdRx5IQquIV9T8b8V9acW2nS7vYH0-I07XdG6fBRDoiRdMLjTV2jSMh5lYDAfSJwqH9TNFQDXCQ6qMG6oLgg" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Consultas DB 20.000 usuarios - SQL</h2>
+            <a href="https://github.com/SebasRojasM1/SQL-MongoDBRiwi/blob/main/sb%20pruebas.sql" target="_blank" class="read-more">
+              Ir al repositorio
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+
+
+        <!-- Ejercicio 4 -->
+        <div class="card">
+          <figure>
+            <img src="https://s3.amazonaws.com/info-mongodb-com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Consulta views SQL + Introduccion MongoDB</h2>
+            <a href="https://github.com/SebasRojasM1/investigacionSQL-MONGODB" target="_blank" class="read-more">
+              Ir al repositorio
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="https://sebasrojasm1.github.io/investigacionSQL-MONGODB/" target="_blank" class="read-more">
+              Ir al proyecto
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            </div>
+        </div>
+
+
+
+        <!-- Ejercicio 5 -->
+        <div class="card">
+          <figure>
+            <img src="https://www.4webs.es/blog/wp-content/uploads/2016/10/usuarios-nuevos-vs-recurrentes.jpg" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Consultas MongoDB - 20.000 usuarios</h2>
+            <a href="https://github.com/SebasRojasM1/MongoDBusers20k/blob/main/MongoDB%20db-20000users.js" target="_blank" class="read-more">
+              Ir al repositorio
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            </div>
+        </div>
+
+
+
+        <!-- Ejercicio 6 -->
+        <div class="card">
+          <figure>
+            <img src="https://as1.ftcdn.net/v2/jpg/03/66/46/08/1000_F_366460831_F1IlnXnqAcMWBP7waEmRjgEv0yoW7qLC.jpg" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Supermarket - MongoDB + SQL</h2>
+            <a href="https://github.com/SebasRojasM1/SQL-MongoDBRiwi/blob/Supermercado-SQL-MongoDB/supermercado.mongodb.js" target="_blank" class="read-more">
+              Ir al proyecto
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            </div>
+        </div>
+
+
+
+
+        <!-- Ejercicio 7 -->
+        <div class="card">
+          <figure>
+            <img src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2021/03/nodejs-reference-architecture_1x.png?itok=MqGeWTLm" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Consultas Node/MongoDB</h2>
+            <a href="https://github.com/SebasRojasM1/portfolio/blob/ActEmpresa/Usuario/index.js" target="_blank" class="read-more">
+              Ir al repositorio
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              </a>
+
+              <a href="https://www.postman.com/maintenance-operator-95682430/workspace/nodejs/collection/33425968-057c1732-0e2b-49bb-91c7-b4783f933e6b?action=share&creator=33425968" target="_blank" class="read-more">
+                Ir al Postman
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+        </div>
+
+
+
+        <!-- Ejercicio 8 -->
+        <div class="card">
+          <figure>
+            <img src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg" alt="" />
+          </figure>
+
+          <div class="card-content">
+            <h2>Operadores logicos - MongoDB/Node</h2>
+            <a href="https://github.com/SebasRojasM1/NodeJsTrabajos/blob/consultasOperadores/index.js" target="_blank" class="read-more">
+              Ir al proyecto
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+
+    <footer id="footer">
+        <h4>Desarrollador Web</h4>
+        <p>Apasionado por el desarrollo Front-end, siempre busco la mejor manera de satisfacer las necesidades de aquellos clientes que desean una web creativa, funcional y optima para sus servicios.</p>
+        <div class="social-media-footer" data-aos="zoom-in">
+            <a href="https://github.com/SebasRojasM1" target="_blank"><img class="icon-contact" src="img/icons/github-logo.svg" alt="github-icon"></a>
+            <a href="https://www.linkedin.com/in/sebastianrojasmarin/" target="_blank"><img class="icon-contact" src="img/icons/linkedin-logo.svg" alt="linkedin-icon"></a>
+            <a href="mailto:Sebasrojasm1@gmail.com" target="_blank"><img class="icon-contact" src="img/icons/email-icon.svg" alt="email-icon"></a>
+        </div>
+
+        <div class="copyright">
+            <p>Derechos reservados 2024 © Sebastián Rojas.</p>
+        </div>
+    </footer>
+
+    <div class="contact-whatsapp">
+        <a href="" target="_blank"><img src="img/icons/whatsapp-logo.svg" alt="whatsapp-icon"></a>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1500,
+      });
+  </script>
+</body>
+</html>
